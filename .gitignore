@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables — never commit this
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# GeoNames data file — too large for git
+data/cities500.txt
+data/*.txt
+data/*.zip
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# pytest cache
+.pytest_cache/
+
+# Generated evaluation report
+data/eval_results.json
